@@ -1,0 +1,183 @@
+/*
+Name: Darcula
+Description: Based on PhpStorm Darcula Theme.
+Version: 1.0
+Author: Natan Felles
+URL: http://github.com/natanfelles/crayon-darcula
+*/
+.crayon-theme-darcula{
+	border-width: 1px !important;
+	border-color: #555 !important;
+	border-style: solid !important;
+	text-shadow: none !important;
+	background: #232525 !important;
+}
+.crayon-theme-darcula-inline{
+	border-width: 1px !important;
+	border-color: #ddd !important;
+	border-style: solid !important;
+	background: #fafafa !important;
+}
+.crayon-theme-darcula .crayon-table .crayon-nums{
+	background: #313335 !important;
+	color: #888 !important;
+}
+.crayon-theme-darcula *::selection{
+	background: transparent !important;
+}
+.crayon-theme-darcula .crayon-code *::selection{
+	background: #def !important;
+	color: #316ba5 !important;
+}
+.crayon-theme-darcula .crayon-num{
+	padding: 2px 5px !important;
+}
+.crayon-theme-darcula .crayon-pre{
+	color: #a9b7c6 !important;
+}
+.crayon-theme-darcula .crayon-striped-line{
+	background: #262828 !important;
+}
+.crayon-theme-darcula .crayon-striped-num{
+	background: #313335 !important;
+	color: #888 !important;
+}
+.crayon-theme-darcula .crayon-marked-line{
+	background: #fffee2 !important;
+	border-width: 1px !important;
+	border-color: #e9e579 !important;
+}
+.crayon-theme-darcula .crayon-marked-num{
+	color: #1561ac !important;
+	background: #b3d3f4 !important;
+	border-width: 1px !important;
+	border-color: #5999d9 !important;
+}
+.crayon-theme-darcula .crayon-marked-line.crayon-striped-line{
+	background: #faf8d1 !important;
+}
+.crayon-theme-darcula .crayon-marked-num.crayon-striped-num{
+	background: #9ec5ec !important;
+	color: #105395 !important;
+}
+.crayon-theme-darcula .crayon-marked-line.crayon-top{
+	border-top-style: solid !important;
+}
+.crayon-theme-darcula .crayon-marked-num.crayon-top{
+	border-top-style: solid !important;
+}
+.crayon-theme-darcula .crayon-marked-line.crayon-bottom{
+	border-bottom-style: solid !important;
+}
+.crayon-theme-darcula .crayon-marked-num.crayon-bottom{
+	border-bottom-style: solid !important;
+}
+.crayon-theme-darcula .crayon-info{
+	background: #faf9d7 !important;
+	border-bottom-width: 1px !important;
+	border-bottom-color: #b1af5e !important;
+	border-bottom-style: solid !important;
+	color: #7e7d34;
+}
+.crayon-theme-darcula .crayon-toolbar{
+	background: #3c3e3f !important;
+	border-bottom-width: 1px !important;
+	border-bottom-color: #555 !important;
+	border-bottom-style: solid !important;
+}
+.crayon-theme-darcula .crayon-line{
+	padding: 2px !important;
+}
+.crayon-theme-darcula .crayon-button{
+	background-color: transparent !important;
+}
+.crayon-theme-darcula .crayon-toolbar > div{
+	float: left !important;
+}
+.crayon-theme-darcula .crayon-toolbar .crayon-tools{
+	float: right !important;
+}
+.crayon-theme-darcula .crayon-title{
+	color: #999 !important;
+}
+.crayon-theme-darcula .crayon-language{
+	color: #999 !important;
+}
+.crayon-theme-darcula .crayon-button{
+	background-color: #ddd;
+}
+.crayon-theme-darcula .crayon-button:hover{
+	background-color: #eee;
+	color: #666;
+}
+.crayon-theme-darcula .crayon-button.crayon-pressed:hover{
+	background-color: #eee;
+	color: #666;
+}
+.crayon-theme-darcula .crayon-button.crayon-pressed{
+	background-color: #bcbcbc;
+	color: #fff;
+}
+.crayon-theme-darcula .crayon-button.crayon-pressed:active{
+	background-color: #bcbcbc;
+	color: #fff;
+}
+.crayon-theme-darcula .crayon-button:active{
+	background-color: #bcbcbc;
+	color: #fff;
+}
+.crayon-theme-darcula .crayon-pre .crayon-c{
+	color: #629755 !important;
+}
+.crayon-theme-darcula .crayon-pre .crayon-s{
+	color: #698648 !important;
+}
+.crayon-theme-darcula .crayon-pre .crayon-p{
+	color: #b85c00 !important;
+}
+.crayon-theme-darcula .crayon-pre .crayon-ta{
+	color: #cc7832 !important;
+}
+.crayon-theme-darcula .crayon-pre .crayon-k{
+	color: #cc7832 !important;
+}
+.crayon-theme-darcula .crayon-pre .crayon-st{
+	color: #cc7832 !important;
+}
+.crayon-theme-darcula .crayon-pre .crayon-r{
+	color: #e8bf6a !important;
+}
+.crayon-theme-darcula .crayon-pre .crayon-t{
+	color: #cc7832 !important;
+}
+.crayon-theme-darcula .crayon-pre .crayon-m{
+	color: #cc7832 !important;
+}
+.crayon-theme-darcula .crayon-pre .crayon-i{
+	color: #ffc66d !important;
+}
+.crayon-theme-darcula .crayon-pre .crayon-e{
+	color: #a9b7c6 !important;
+}
+.crayon-theme-darcula .crayon-pre .crayon-v{
+	color: #9876aa !important;
+}
+.crayon-theme-darcula .crayon-pre .crayon-cn{
+	color: #6897bb !important;
+}
+.crayon-theme-darcula .crayon-pre .crayon-o{
+	color: #a9b7c6 !important;
+}
+.crayon-theme-darcula .crayon-pre .crayon-sy{
+	color: #a9b7c6 !important;
+}
+.crayon-theme-darcula .crayon-pre .crayon-n{
+	color: #666 !important;
+	font-style: italic;
+}
+.crayon-theme-darcula .crayon-pre .crayon-f{
+	color: #999 !important;
+}
+.crayon-theme-darcula .crayon-pre .crayon-h{
+	color: #006fe0 !important;
+}
